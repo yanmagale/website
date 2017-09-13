@@ -4,7 +4,7 @@ Correções de bug não devem inserir novas APIs ou quebrar as APIs já existent
 
 Funcionalidades podem introduzir novas APIs, e precisam de uma sinalização de feature. 
 Elas não devem ser aplicadas no release ou em branches beta, uma vez que o 
-[Semantic Version](http://semver.org/) exige a versão menor seja superada para apresentar novas funcionalidades.
+[Semantic Version](http://semver.org/) exige que a versão menor seja superada para apresentar novas funcionalidades.
 
 Correções de segurança não devem introduzir novas APIs, mas pode, se estritamente necessário, quebrar as APIs existentes. Estas quebras devem ser tão limitadas quanto possível.
 
