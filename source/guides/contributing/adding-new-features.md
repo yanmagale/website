@@ -1,17 +1,14 @@
-In general, new feature development should be done on master.
+No geral, o desenvolvimento de novas funcionalidades deve ser feito no branch master.
 
-Bugfixes should not introduce new APIs or break existing APIs, and do
-not need feature flags.
+Correções de bug não devem inserir novas APIs ou quebrar as APIs já existentes, e não precisam sinalizar funcionalidades.
 
-Features can introduce new APIs, and need feature flags. They should not
-be applied to the release or beta branches, since SemVer requires
-bumping the minor version to introduce new features.
+Funcionalidades podem introduzir novas APIs, e precisam de uma sinalização de feature. 
+Elas não devem ser aplicadas no release ou em branches beta, uma vez que o 
+[Semantic Version](http://semver.org/) exige a versão menor seja superada para apresentar novas funcionalidades.
 
-Security fixes should not introduce new APIs, but may, if strictly
-necessary, break existing APIs. Such breakages should be as limited as
-possible.
+Correções de segurança não devem introduzir novas APIs, mas pode, se estritamente necessário, quebrar as APIs existentes. Estas quebras devem ser tão limitadas quanto possível.
 
-### Bug Fixes
+### Correções de Bug
 
 #### Urgent Bug Fixes
 
