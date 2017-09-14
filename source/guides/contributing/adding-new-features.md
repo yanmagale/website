@@ -10,23 +10,22 @@ Correções de segurança não devem introduzir novas APIs, mas pode, se estrita
 
 ### Correções de Bug
 
-#### Urgent Bug Fixes
+#### Correnções de Bug Urgentes
 
-Urgent bugfixes are bugfixes that need to be applied to the existing
-release branch. If possible, they should be made on master and prefixed
-with [BUGFIX release].
+Correções de bug do tipo urgentes são correções de bug que precisam ser aplicadas no branch de `release`.
+Se possível, eles deveriam estar no branch `master` e prefixados com  [BUGFIX release].
 
-#### Beta Bug Fixes
+#### Correções de Bug Beta
 
-Beta bugfixes are bugfixes that need to be applied to the beta branch.
-If possible, they should be made on master and tagged with [BUGFIX
-beta].
+Correções de bug do tipo beta são correções que precisam ser aplicadas no branch `beta`.
+Se possível, eles deveriam estar no branch `master` e prefixados com  [BUGFIX beta].
 
-#### Security Fixes
 
-Security fixes need to be applied to the beta branch, the current
-release branch, and the previous tag. If possible, they should be made
-on master and tagged with [SECURITY].
+#### Correções de Segurança
+
+Correções de seguraça precisam ser aplicadas no branch `beta`,  na versão atual do branch `release` , e na tag anterior. 
+
+Se possível, eles deveriam estar no branch `master` e prefixados com  [SECURITY].
 
 ### Features
 
